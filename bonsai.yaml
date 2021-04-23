@@ -2,8 +2,8 @@ description: "sensu-redis-simple-test"
 builds:
 - platform: "linux"
   arch: "amd64"
-  asset_filename: "sensu-redis-simple-test-0.0.1.tar.gz"
-  sha_filename: "sensu-redis-simple-test-0.0.1-sha512-checksums.txt"
+  asset_filename: "sensu-redis-simple-test-0.0.2.tar.gz"
+  sha_filename: "sensu-redis-simple-test-0.0.2-sha512-checksums.txt"
   filter:
   -  "entity.system.os == 'linux'"
   -  "entity.system.arch == 'amd64'"
