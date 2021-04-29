@@ -1,10 +1,10 @@
-description: "sensu-redis-simple-test"
+description: "sensu-databases-check"
 builds:
 - platform: "linux"
   arch: "amd64"
   annotations:
     io.sensu.bonsai.tags: check, redis
-  asset_filename: "sensu-redis-simple-test-0.0.4.tar.gz"
+  asset_filename: "sensu-databases-check-0.0.5.tar.gz"
   sha_filename: "sha512-checksums.txt"
   filter:
   -  "entity.system.os == 'linux'"
